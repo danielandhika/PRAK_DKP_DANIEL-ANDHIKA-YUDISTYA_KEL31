@@ -29,3 +29,15 @@ def book():
 	print("E-Ticket Anda Akan Dikirimkan Melalui Email ", email)
 	print("<<<Tetap Patuhi Protokol Kesehatan>>>")
 	print("----------")
+rute= int(input("Masukkan Pilihan Rute : "))
+if (rute == 1):
+	harga=800000
+	book()
+elif (rute == 2):
+	harga=650000
+	book()
+elif (rute == 3):
+	harga=550000
+	book()
+else:
+	print("Tidak Ada Pilihan Rute Tersebut.")
