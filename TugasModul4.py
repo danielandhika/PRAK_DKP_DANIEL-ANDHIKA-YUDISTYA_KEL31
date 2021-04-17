@@ -17,3 +17,15 @@ print("|______________________________________|")
 def book():
 	pax = int(input("Jumlah Penumpang = "))
 	print ("Masukan nama Penumpang : ")
+	for i in range (int(pax)):
+		i += 1
+		n = input("Penumpang ke- {} ".format(i))
+	tot=pax*harga
+	print("Total Harga Rp ",tot)
+	print("__________")
+	email=input("Masukkan Alamat Email Anda: ")
+	print("----------")
+	print("Terima Kasih Telah Memilih Terbang Bersama Kami")
+	print("E-Ticket Anda Akan Dikirimkan Melalui Email ", email)
+	print("<<<Tetap Patuhi Protokol Kesehatan>>>")
+	print("----------")
